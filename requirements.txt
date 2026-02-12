@@ -1,0 +1,12 @@
+# Recommended Python version
+# Python 3.8+
+
+# Minimal (this project uses only Python stdlib; these are optional helpers)
+tqdm>=4.60.0      # progress bars (optional)
+numpy>=1.21       # numerical utilities (optional)
+sacrebleu>=2.2.0  # evaluation BLEU (optional)
+pytest>=7.0       # tests (optional)
+
+# If you plan to use stronger LMs / decoders:
+# kenlm             # KenLM bindings (install from system packages or pip wheel if available)
+# sentencepiece     # tokenizer / BPE (optional)
