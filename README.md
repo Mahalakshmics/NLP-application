@@ -23,7 +23,7 @@ NLP/
     app.py
     prepare_dataset.py
     models/
-      smt_iitb_500k.pkl   (created after saving)
+      smt_iitb_500k.pkl 
 ```
 
 > Run commands from the **NLP** folder unless specified.
@@ -125,16 +125,6 @@ Open the URL shown in the terminal (typically):
 
 ---
 
-## 6) Notes / Common Issues
-
-### “python: can't open file .../NLP/smt.py”
-You must run from `src/` because `smt.py` is inside `src`:
-
-```bash
-cd ~/Desktop/NLP/src
-python smt.py ...
-```
-
 ### Training takes time
 - IBM Model 1 + phrase extraction on 500k pairs is compute-heavy.
 - The UI supports **save/load** so you train once and reuse.
@@ -146,19 +136,6 @@ This is a baseline SMT:
 - bigram LM
 
 So long sentences may look ungrammatical; short sentences are better.
-
----
-
-## 7) Suggested Screenshots for Report
-
-1. `ls -lah data/` showing generated files
-2. `streamlit run app.py` terminal output
-3. UI before training (buttons visible)
-4. UI after training: sentence pairs + vocab sizes
-5. UI showing top `t(hi|en)` probabilities
-6. UI translation box with output + scores
-7. “Save Model” confirmation
-8. “Load Model” confirmation (fast load)
 
 ---
 
