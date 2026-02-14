@@ -146,4 +146,3 @@ So long sentences may look ungrammatical; short sentences are better.
 - `src/prepare_dataset.py` — downloads and prepares IITB corpus
 - `README.md` — this file
 - `report.md` — brief report (design choices + challenges + integration)
-- `screenshots/` — flow screenshots for submission
